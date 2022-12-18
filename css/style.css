@@ -1,5 +1,5 @@
 body{
-  background: url('../images/image2.jpg');
+  background: url('../images/image3.jpg');
   background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -8,14 +8,15 @@ body{
   background-size: cover;
 }
 #container{
-  background: #2E3233;
+  background: rgba(195, 195, 195, 0.1);
   width: 424px;
+  height: 755px;
   color:#D3E3E6;
   padding:15px;
 }
 h1{
   font-family: 'Zen Dots', cursive;
-  font-size: 70px;
+  font-size: 50px;
   color:#D3E3E6;
 }
 h2{
@@ -26,6 +27,11 @@ h2{
   color: #2E3233;
   padding: 5px;
 }
+#link{
+  padding:5px;
+  color:#39AFC4;
+  border-radius: 5px;
+}
 a{
   color:#39AFC4;
   text-decoration: none;
@@ -34,6 +40,11 @@ h3{
   background:#2E3233;
   padding:5px;
   color:#D3E3E6;
+  border-radius: 5px;
+}
+#link{
+  padding:5px;
+  color:#39AFC4;
   border-radius: 5px;
 }
 ul{
