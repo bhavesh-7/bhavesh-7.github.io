@@ -1,0 +1,265 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header and navigation menu */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0 100px; /* Increase the padding-top value */
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 97px;
+    color: #da2439;
+}
+
+
+
+.zero {
+    text-align: center;
+    padding: 100px 0;
+    color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.zero p {
+    font-size: 18px;
+    color: black;
+}
+
+/* Style the job listings section */
+.job-listings {
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+job-listings h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+job-listings li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+job-listings li p {
+    display: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Add a subtle hover effect for job listings */
+job-listings li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Style the candidates section */
+.candidates {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+candidates h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+candidate {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+candidate h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+candidate p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Add subtle hover effect for candidates */
+candidate:hover {
+    transform: translateY(-2px);
+}
+
+/* Style the application form section */
+application-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+application-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Add a subtle hover effect for buttons */
+button:hover {
+    background-color: #555;
+}
+
+/* Newsletter Feed Styles */
+.newsletter-feed {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-feed h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter-feed ul {
+    list-style: none;
+}
+
+.newsletter-feed li {
+    margin: 5px 0;
+}
+
+.newsletter-feed a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles from css2 */
+/* Header Styles */
+.header-container {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Job Listing and Candidate Listing Styles */
+.job-listing, .candidate-listing {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
