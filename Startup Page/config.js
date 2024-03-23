@@ -56,6 +56,34 @@ window.CONFIG = {
     textColor: '#212121',
     pinned: true
     },
+    {
+    category: 'Study',
+    name: 'Google Colab',
+    triggers: [
+      'co',
+      'colab',
+      'google colab',
+    ],
+    key: 'KeyColab',
+    icon: 'Colab',
+    url: 'https://colab.research.google.com/',
+    normalisedURL: 'colab.research.google.com',
+    commands: {
+      go: {
+        template: 'https://colab.research.google.com/{$}',
+        description: 'Go to colab'
+      },
+      search: {
+        template: '{@}/results?search_query={$}'
+      }
+      },
+    bgColor: {
+      type: 'solid',
+      color: '#e68107'
+      },
+    textColor: '#212121',
+    pinned: true
+    },
       {
     category: 'Study',
     name: 'Udemy',
